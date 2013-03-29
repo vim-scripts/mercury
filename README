@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4492
+
+mercury allows you to take a fragment of code from some source (current line, selection, buffer), execute the code intelligently, and then write the result to some destination (message window, selection, register, new split).
+
+Features include:
+
+ * choose the correct interpreter with the correct switches, given the filetype.
+ * execute it in a separate thread and terminate it after a timeout, so an endless loop will not freeze vim.
+ * some language specific smartness (e.g. handling imports).
+
+Currently supports python, ruby and javascript (using node) with more to come soon, hopefully.
+
+For more information, head over to github: https://github.com/nielsmadan/mercury
